@@ -10,7 +10,7 @@ public class Array_matriz {
 		
 		//duas dimensões ou mais: linhas e colunas
 		int [][] numeros = new int[3][3];
-		int linha, coluna, somaNumeros = 0;
+		int linha, coluna, somaNumeros = 0, linhaUsuario, colunaUsuario;
 		
 		for(linha = 0; linha < 3; linha ++) {
 			
@@ -26,8 +26,10 @@ public class Array_matriz {
 		System.out.println("Valor da linha 1 e coluna 2: " + numeros [1][2]);
 		
 		System.out.println("Qual linha deseja ver a informação: ");
+		linhaUsuario = leia.nextInt();
+		System.out.println("Qual coluna deseja ver a informação: ");
+		colunaUsuario = leia.nextInt();
 		
-
+		System.out.println("Informação na linha " + linhaUsuario + " e na coluna " + colunaUsuario + " tem o valor: " + numeros[linhaUsuario][colunaUsuario]);			
 	}
-
 }

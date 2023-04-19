@@ -17,13 +17,13 @@ public class Array_vetor {
 		for (x = 0; x < 4; x++) {
 			
 			
-			System.out.println("Entre com a primeira nota");
+			System.out.println("Entre com a primeira nota:");
 			n1 = leia.nextFloat();
 			
-			System.out.println("Entre com a segunda nota");
+			System.out.println("Entre com a segunda nota:");
 			n2 = leia.nextFloat();
 			
-			System.out.println("Entre com a terceira nota");
+			System.out.println("Entre com a terceira nota:");
 			n3 = leia.nextFloat();
 			
 			media [x] = (n1 + n2 + n3 / 3);
@@ -41,7 +41,7 @@ public class Array_vetor {
 		System.out.println("Maior média: " + maiorMedia);
 		
 		for (x = 0; x < 4; x++) {
-			System.out.println("Média aluno " + x(x+1) + " foi de: " + media[x] );
+			System.out.println("Média aluno " + x + " foi de: " + media[x] );
 		}
 	}
 }

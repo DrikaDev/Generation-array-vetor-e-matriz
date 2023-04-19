@@ -26,7 +26,7 @@ public class Atividade4 {
 			
 			for (coluna = 0; coluna < 4; coluna ++ ) {
 				
-				System.out.print("Nota " + (coluna +1) + ": ");
+				System.out.println("Nota " + (coluna +1) + ": ");
 				nota[linha][coluna] = leia.nextDouble();
 			}
 		}
@@ -35,7 +35,7 @@ public class Atividade4 {
 		for (linha = 0; linha < 10; linha ++) {
 			float soma = 0;
 			for(coluna = 0; coluna < 4; coluna++) {
-				soma += soma + nota[coluna][linha];
+				soma += nota[coluna][linha];
 			}
 			media[linha] = soma / 4;
 		}
